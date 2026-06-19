@@ -1,0 +1,95 @@
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.cards:hover{
+   box-shadow: 0px 0px 5px #fe0000;
+}
+
+.photo{
+    width: 280px;
+}
+@media screen and (max-width:500px){
+    .photo{
+        width: 80px;
+       
+    }
+}
+
+.cards:hover{
+    box-shadow: 0px 0px 8px orange;
+}
+
+.formcon{
+    width: 100vw;
+    height: 100vh;
+}
+
+.form{
+    height: 450px;
+    width: 400px;
+}
+
+@media screen and (max-width:500px){
+    .form{
+        width: 330px;
+    }
+}
+
+.input1{
+   position: relative;
+   left: 50px;
+}
+
+.input2{
+   position: relative;
+   left: 55px;
+}
+
+.input3{
+   position: relative;
+   left: 20px;
+}
+
+.input4{
+   position: relative;
+   left: 30px;
+   width: 190px;
+}
+
+.para{
+    position: relative;
+    left: 100px;
+}
+
+.fc{
+    /* display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 15px;
+    align-items: center;
+    margin: 30px; */
+}
+
+.products{
+    width: 150px;
+    height: 170px;
+}
+
+.productImg{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width:500px){
+    .products{
+        width: 120px;
+        height: 120px;
+    }
+
+    .productImg{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
