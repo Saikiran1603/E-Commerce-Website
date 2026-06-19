@@ -7,7 +7,7 @@ import Cart from '../Pages/Cart'
 import Products from '../Pages/Products'
 import ProductDetails from '../Pages/ProductDetails'
 // import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
+
 import Company from '../Components/Company'
 import Profile from '../Components/Profile'
  
@@ -79,8 +79,7 @@ const search=(e)=>{
        
       </Routes>
  </cart.Provider>
-     <Footer/>
-
+    
      
     </div>
   )
