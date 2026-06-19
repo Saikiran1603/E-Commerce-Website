@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react'
 
-
 export default function Contact() {
  const ref=useRef();
   const [data,setData]=useState({
